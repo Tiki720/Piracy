@@ -1,0 +1,9 @@
+canvas {
+    border: solid black 2px;
+    touch-action: none;
+    display: none;
+}
+
+input {
+    font-size: 20px;
+}
