@@ -23,7 +23,7 @@ app.get('/', function(req, res) {
     res.sendFile(__dirname + '/client/index.html')
 })
 app.use('/client', express.static(__dirname + '/client'))
-serv.listen(25566)
+serv.listen(5000)
 console.log('server started')
     // Data sharing to clients
 const io = require('socket.io')(serv, {})
